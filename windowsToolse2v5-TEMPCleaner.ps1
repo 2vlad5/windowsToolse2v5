@@ -1,7 +1,7 @@
-function test {
+function sucessUpdate {
 
  Add-Type -AssemblyName "System.Windows.Forms"
- [void][System.Windows.Forms.Messagebox]::Show("ы получили новое обновление!")
+ [void][System.Windows.Forms.Messagebox]::Show("Вы получили новое обновление!")
 }
 
-test
+sucessUpdate

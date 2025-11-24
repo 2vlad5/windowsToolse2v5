@@ -13,6 +13,5 @@ sleep
 
 Start-Sleep -Seconds 1
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
-Set-Location -Path "C:\windowsScripts2v5"
-.\windowsToolse2v5-TEMPCleaner.ps1
+powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -Command "Set-Location -Path 'C:\windowsScripts2v5'; & '.\windowsToolse2v5-TEMPCleaner.ps1'"
 
